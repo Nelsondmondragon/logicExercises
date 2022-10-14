@@ -16,6 +16,7 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         Integer length = sc.nextInt();
         Integer breadth = sc.nextInt();
+//        System.out.println(length +" "br);
         System.out.println(new Rectangle(length, breadth).area());
     }
 
