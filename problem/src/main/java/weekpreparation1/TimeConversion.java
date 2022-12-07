@@ -1,4 +1,4 @@
-package weekpreparation1.timeconversion;
+package weekpreparation1;
 
 import javax.xml.transform.Result;
 import java.io.*;

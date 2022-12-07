@@ -1,4 +1,4 @@
-package weekpreparation1.plusminus;
+package weekpreparation1;
 
 import java.text.DecimalFormat;
 import java.util.List;

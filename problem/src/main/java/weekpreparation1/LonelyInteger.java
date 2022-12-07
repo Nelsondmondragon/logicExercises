@@ -1,4 +1,4 @@
-package weekpreparation1.lonelyinteger;
+package weekpreparation1;
 
 import java.util.ArrayList;
 import java.util.HashMap;

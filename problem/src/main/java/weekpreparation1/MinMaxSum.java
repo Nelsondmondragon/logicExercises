@@ -1,4 +1,4 @@
-package weekpreparation1.minimaxsum;
+package weekpreparation1;
 
 import java.util.ArrayList;
 import java.util.Collections;

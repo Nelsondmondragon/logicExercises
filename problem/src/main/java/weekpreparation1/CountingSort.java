@@ -1,4 +1,4 @@
-package weekpreparation1.countingsort;
+package weekpreparation1;
 
 import java.sql.SQLOutput;
 import java.util.ArrayList;
