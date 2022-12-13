@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.IntStream;
 
@@ -15,12 +14,11 @@ public class MergeTwoSortedLinkedLists {
 
         int cases = Integer.parseInt(bufferedReader.readLine().trim());
 
-
         IntStream.range(0, cases).forEach(option -> {
             List<Integer> listSorted = new ArrayList<>();
-
-            LinkedList<Integer> linkedList = new LinkedList<>();
-            linkedList.stream().spliterator()
+//
+//            LinkedList<Integer> linkedList = new LinkedList<>();
+////            linkedList.stream().spliterator()
 
             try {
                 int size = Integer.parseInt(bufferedReader.readLine().trim());
