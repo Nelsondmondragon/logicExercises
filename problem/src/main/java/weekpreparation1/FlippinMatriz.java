@@ -1,6 +1,9 @@
 package weekpreparation1;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class FlippinMatriz {
 
@@ -13,6 +16,11 @@ public class FlippinMatriz {
     public static int flippingMatrix(List<List<Integer>> matrix) {
         int sumAn = 0;
         int sumDe = 0;
+
+        List<String> l = new ArrayList<>(List.of("Java", "angular"));
+
+
+
         for (int i = 0; i < matrix.get(0).size(); i++) {
             for (int j = 0; j < matrix.size(); j++) {
                 if (i < (matrix.size() / 2)) {
@@ -26,7 +34,7 @@ public class FlippinMatriz {
                 int start = 0;
                 int end = matrix.size();
                 while (start < end) {
-                    matrix
+//                    matrix
 
                     start++;
                     end--;

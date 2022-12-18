@@ -1,4 +1,4 @@
-package watermelon;
+package javahackerrank;
 
 //package com.watermelon;
 
@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
  *
  * @author nelso
  */
-public class Main {
+public class WaterMelon {
 
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

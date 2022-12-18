@@ -2,15 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package multisum;
+package javahackerrank;
 
 import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
-public class Solution {
+public class Multisum {
 
     public static void main(String args[]) throws Exception {
         BufferedReader tc = new BufferedReader(new InputStreamReader(System.in));

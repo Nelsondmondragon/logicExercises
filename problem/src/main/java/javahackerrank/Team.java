@@ -1,4 +1,4 @@
-/*
+package javahackerrank;/*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
@@ -13,7 +13,7 @@ import java.util.StringTokenizer;
  *
  * @author nelso
  */
-public class Main {
+public class Team {
 
     public static void main(String[] args) throws IOException {
         BufferedReader tc = new BufferedReader(new InputStreamReader(System.in));

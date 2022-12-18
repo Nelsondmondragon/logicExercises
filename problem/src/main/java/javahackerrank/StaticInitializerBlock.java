@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package staticinitializerblock;
+package javahackerrank;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author nelso
  */
-public class Solution {
+public class StaticInitializerBlock {
 
     static byte b = 0;
     static byte h = 0;

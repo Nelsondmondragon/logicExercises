@@ -1,4 +1,4 @@
-package waytoolongwords;
+package javahackerrank;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
  *
  * @author nelso
  */
-public class Main {
+public class WaytoolongWords {
     
     public static void main(String[] args) throws IOException {
         
