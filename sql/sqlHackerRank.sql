@@ -54,3 +54,46 @@ FROM occupations
 GROUP BY  occupation
 ORDER BY COUNT(occupation) asc
          ,occupation asc; // The PADS
+
+SELECT  CASE WHEN occupation = 'Doctor' THEN name END
+       ,CASE WHEN occupation = 'Professor' THEN name END
+       ,CASE WHEN occupation = 'Single' THEN name END
+       ,CASE WHEN occupation = 'Actor' THEN name END
+FROM occupations;
+
+SELECT  Q.Doctor
+       ,Q.Professor
+       ,Q.Single
+       ,Q.Actor
+FROM TABLE
+(VALUES(
+	SELECT  name
+	FROM occupations
+	WHERE occupations.occupation = 'Doctor', 'f', 'h', 'd') 
+) AS Q(Doctor, Professor, Single, Actor);
+
+SELECT  doctor
+       ,professor
+       ,single
+       ,actor
+FROM
+(
+	SELECT  [occupation]
+	FROM occupations;
+) AS test;
+
+SELECT  name
+FROM occupations
+WHERE name = 'Doctor' 
+UNION ALL
+SELECT  name
+FROM Occupations
+WHERE name = 'Professor' 
+UNION ALL
+SELECT  name
+FROM Occupations
+WHERE name = 'Singer' 
+UNION ALL
+SELECT  name
+FROM Occupations
+WHERE name = 'Actor' ) //Occupations
