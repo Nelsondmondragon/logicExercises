@@ -24,6 +24,7 @@ public class Team {
             int petya = Integer.parseInt(st.nextToken());
             int vasya = Integer.parseInt(st.nextToken());
             int tonya = Integer.parseInt(st.nextToken());
+
             if ((petya + vasya + tonya) >= 2) {
                 problems++;
             }
