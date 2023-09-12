@@ -52,4 +52,30 @@ public class IntervalIntersection {
         }
         return matrix;
     }
+
+    public static int[][] intervalIntersection2(int[][] firstList, int[][] secondList) {
+
+         List<int[]> lists = new ArrayList<>();
+        int first = 0;
+        int second = 0;
+        while (first < firstList.length && second < secondList.length) {
+            int max= Math.max(firstList[first][0], secondList[second][0]);
+            int min = Math.min(firstList[first][1], secondList[second][1]);
+            if(max<=min){
+                lists.add(new int[]{max,min});
+            }
+
+            if(firstList[first][1]>secondList[second][1]){
+                second++;
+            }else{
+                first++;
+            }
+
+        }
+        int[][] matrix = new int[lists.size()][2];
+        for (int i = 0; i < lists.size(); i++) {
+                matrix[i] = lists.get(i);
+        }
+        return matrix;
+    }
 }
